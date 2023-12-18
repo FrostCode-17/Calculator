@@ -5,8 +5,24 @@ const screen = document.querySelector(".screen");
 
 //
 function buttonClick(value) {
- console.log(value);
+ if(isNaN(parseInt(value))) {
+    handleSymbol(value);
+ }
+ else {
+    handleNumber(value)
+ };
 }
+
+function handleNumber(value) {
+
+}
+
+function handleSymbol(value) {
+
+}
+
+
+
 
 //Inialazing calc button
 function init() {
